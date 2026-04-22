@@ -13,10 +13,10 @@ import (
 
 	"github.com/redis/go-redis/v9"
 
-	grpcrelay "github.com/dy/minichat-go/internal/grpc"
-	kafkachat "github.com/dy/minichat-go/internal/kafka"
-	"github.com/dy/minichat-go/internal/snowflake"
-	wschat "github.com/dy/minichat-go/internal/websocket"
+	grpcrelay "github.com/lukyday007/minichat-go/internal/grpc"
+	kafkachat "github.com/lukyday007/minichat-go/internal/kafka"
+	"github.com/lukyday007/minichat-go/internal/snowflake"
+	wschat "github.com/lukyday007/minichat-go/internal/websocket"
 )
 
 func main() {
